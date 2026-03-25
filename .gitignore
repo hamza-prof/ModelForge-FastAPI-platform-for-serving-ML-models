@@ -1,0 +1,36 @@
+# ── Secrets ───────────────────────────────────────────────────────
+.env
+
+# ── Python ────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual Environments ─────────────────────────────────────────
+.venv/
+venv/
+
+# ── Tool Caches ───────────────────────────────────────────────────
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+
+# ── IDE ───────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── ML Model Storage (large binaries) ──────────────────────────────
+model_store/*.pkl
+model_store/*.pt
+model_store/*.onnx
+model_store/*.joblib
+
+# ── OS ────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
