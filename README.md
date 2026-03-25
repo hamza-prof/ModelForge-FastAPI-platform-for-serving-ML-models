@@ -23,7 +23,7 @@ A production-grade REST API platform for serving machine learning models built w
 | Cache | Redis |
 | Auth | JWT (python-jose + passlib) |
 | ML Serving | joblib / torch / onnx |
-| Testing | pytest + httpx |
+| Testing | pytest + httpx | 
 | Linting | Ruff |
 | Type Checking | mypy |
 
